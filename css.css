@@ -93,3 +93,53 @@ transition:background 0.3s;
     
 
 }
+.port-header{
+    text-align: center;
+    margin: 45px 0;
+}
+.port-header p{
+    color: gold;
+
+}
+.port-header h3{
+    font-size: 3rem
+}
+.port-item{
+    width: 50%;
+   
+background:blue;
+    float: left;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: aliceblue;
+    
+    
+}
+
+
+.port-text{
+    margin-top: 200px
+}
+.photo1{  background:url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-1.jpg);
+background-size: cover
+}
+.photo2{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-2.jpg);
+background-size: cover
+}
+.photo3{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-3.jpg);
+    background-size: cover
+}
+.photo4{
+    background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/portfolio-4.jpg);
+background-size:cover 
+}
+
+.port-item:hover{
+   transform: scale(0.3s);
+    filter:grayscale(100%);
+    transition: 1s;
+    clip-path: inset(20px,)
+}
+
