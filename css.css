@@ -137,9 +137,9 @@ background-size:cover
 }
 
 .port-item:hover{
-   transform: scale(0.3s);
+   transform: scale(0.9);
     filter:grayscale(100%);
-    transition: 1s;
-    clip-path: inset(20px,)
+    transition: 0.5s;
+
 }
 
